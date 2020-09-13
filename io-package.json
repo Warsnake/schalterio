@@ -1,6 +1,6 @@
 {
     "common": {
-        "name":                     "sonoff",
+        "name":                     "schalterio",
         "version": "2.3.3",
         "news": {
             "2.3.3": {
@@ -168,7 +168,7 @@
 		"type":                     "lighting"
     },
     "native": {
-        "port":                 1883,
+        "port":                 44444,
         "bind":                 "0.0.0.0",
         "user":                 "",
         "pass":                 "",
