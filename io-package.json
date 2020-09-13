@@ -1,0 +1,210 @@
+{
+    "common": {
+        "name":                     "sonoff",
+        "version": "2.3.3",
+        "news": {
+            "2.3.3": {
+                "en": "Error was caught",
+                "de": "Fehler wurde abgefangen",
+                "ru": "Ошибка была обнаружена",
+                "pt": "Erro detectado",
+                "nl": "Er is een fout opgetreden",
+                "fr": "Une erreur a été interceptée",
+                "it": "Errore rilevato",
+                "es": "Error fue atrapado",
+                "pl": "Błąd został złapany",
+                "zh-cn": "发现错误"
+            },
+            "2.3.2": {
+                "en": "Fixed the password input in the configuration\nAllowed to set the IP interface for server\nFixed tests for js-controller 2.0\nFixed the monitoring of the client connection\nChanged \"indicator.connected\" to \"indicator.reachable\" for clients\nSupported {POWERn: \"true\"}\nCorrect processing of {temp: nan}",
+                "de": "Die Passworteingabe in der Konfiguration wurde korrigiert\nDarf die IP-Schnittstelle für den Server einstellen\nBehobene Tests für js-controller 2.0\nDie Überwachung der Client-Verbindung wurde behoben\n\"Indicator.connected\" wurde für Clients in \"indicator.reachable\" geändert\nUnterstützt {POWERn: \"true\"}\nRichtige Verarbeitung von {temp: nan}",
+                "ru": "Исправлен ввод пароля в конфигурации\nРазрешено устанавливать IP интерфейс для сервера\nИсправлены тесты для js-controller 2.0\nИсправлен мониторинг клиентского соединения\nИзменен «индикатор.подключен» на «индикатор.доступен» для клиентов\nПоддерживается {POWERn: \"true\"}\nПравильная обработка {temp: nan}",
+                "pt": "Corrigida a entrada da senha na configuração\nPermitido definir a interface IP para o servidor\nTestes corrigidos para o js-controller 2.0\nCorrigido o monitoramento da conexão do cliente\nAlterado \"indicator.connected\" para \"indicator.reachable\" para clientes\nSuportado {POWERn: \"true\"}\nProcessamento correto de {temp: nan}",
+                "nl": "De wachtwoordinvoer in de configuratie is opgelost\nMag de IP-interface voor de server instellen\nVaste tests voor js-controller 2.0\nDe bewaking van de clientverbinding is opgelost\n\"Indicator.connected\" gewijzigd in \"indicator.reachable\" voor klanten\nOndersteund {POWERn: \"true\"}\nCorrecte verwerking van {temp: nan}",
+                "fr": "Correction du mot de passe saisi dans la configuration\nAutorisé à définir l'interface IP pour le serveur\nTests fixes pour js-controller 2.0\nCorrection de la surveillance de la connexion client\n\"Indicateur.connecté\" remplacé par \"indicateur.accessible\" pour les clients\nPris en charge {POWERn: \"true\"}\nTraitement correct de {temp: nan}",
+                "it": "Risolto il problema con l'inserimento della password nella configurazione\nAutorizzato a impostare l'interfaccia IP per il server\nTest fissi per js-controller 2.0\nRisolto il problema con il monitoraggio della connessione client\nModificato \"indicatore.connesso\" in \"indicatore.realizzabile\" per i client\nSupportato {POWERn: \"true\"}\nElaborazione corretta di {temp: nan}",
+                "es": "Se corrigió la entrada de contraseña en la configuración\nSe le permite configurar la interfaz IP para el servidor\nPruebas fijas para js-controller 2.0\nSe corrigió el monitoreo de la conexión del cliente.\nSe cambió \"indicator.connected\" a \"indicator.reachable\" para clientes\nCompatible con {POWERn: \"true\"}\nProcesamiento correcto de {temp: nan}",
+                "pl": "Naprawiono wprowadzanie hasła w konfiguracji\nDozwolone ustawienie interfejsu IP dla serwera\nNaprawiono testy js-kontrolera 2.0\nNaprawiono monitorowanie połączenia klienta\nZmieniono „wskaźnik.połączony” na „wskaźnik.rozdostępny” dla klientów\nObsługiwane {POWERn: „true”}\nPrawidłowe przetwarzanie {temp: nan}",
+                "zh-cn": "修复了配置中输入的密码\n允许设置服务器的IP接口\n固定测试js-controller 2.0\n修复了客户端连接的监控\n将客户端的“ indicator.connected”更改为“ indicator.reachable”\n受支持的{POWERn：“ true”}\n正确处理{temp：nan}"
+            },
+            "2.2.3": {
+                "en": "Support for compact mode",
+                "de": "Unterstützung für den Kompaktmodus",
+                "ru": "Поддержка компактного режима",
+                "pt": "Suporte para o modo compacto",
+                "nl": "Ondersteuning voor de compacte modus",
+                "fr": "Prise en charge du mode compact",
+                "it": "Supporto per la modalità compatta",
+                "es": "Soporte para modo compacto",
+                "pl": "Obsługa trybu kompaktowego"
+            },
+            "2.2.2": {
+                "en": "Configuration was fixed",
+                "de": "Die Konfiguration wurde repariert",
+                "ru": "Конфигурация была исправлена",
+                "pt": "Configuração foi corrigida",
+                "nl": "Configuratie was opgelost",
+                "fr": "La configuration a été corrigée",
+                "it": "La configurazione è stata riparata",
+                "es": "La configuración fue arreglada",
+                "pl": "Konfiguracja została naprawiona"
+            },
+            "2.2.1": {
+                "en": "- in names was allowed again",
+                "de": "- in Namen wurde wieder erlaubt",
+                "ru": "- в именах снова было разрешено",
+                "pt": "- nos nomes foi permitido novamente",
+                "nl": "- in namen was weer toegestaan",
+                "fr": "- dans les noms a été autorisé à nouveau",
+                "it": "- nei nomi è stato permesso di nuovo",
+                "es": "- en los nombres se permitió de nuevo",
+                "pl": "- w nazwach było ponownie dozwolone"
+            },
+            "2.2.0": {
+                "en": "Auto generate of objects was implemented",
+                "de": "Auto-Generierung von Objekten wurde implementiert",
+                "ru": "Была реализована автоматическая генерация объектов",
+                "pt": "Geração automática de objetos foi implementada",
+                "nl": "Automatisch genereren van objecten is geïmplementeerd",
+                "fr": "La génération automatique d'objets a été implémentée",
+                "it": "È stata implementata la generazione automatica di oggetti",
+                "es": "Generación automática de objetos fue implementado",
+                "pl": "Automatycznie generowano obiekty"
+            },
+            "2.1.3": {
+                "en": "Added HC-SR04 Ultrasonic Sensor",
+                "de": "HC-SR04 Ultraschallsensor hinzugefügt",
+                "ru": "Добавлен ультразвуковой датчик HC-SR04",
+                "pt": "Adicionado Sensor Ultrassônico HC-SR04",
+                "nl": "HC-SR04 ultrasone sensor toegevoegd",
+                "fr": "Capteur à ultrasons HC-SR04 ajouté",
+                "it": "Aggiunto il sensore a ultrasuoni HC-SR04",
+                "es": "Sensor ultrasónico HC-SR04 agregado",
+                "pl": "Dodano czujnik ultradźwiękowy HC-SR04"
+            },
+            "2.1.2": {
+                "en": "Added support of UvLight, Longitude and Latitude",
+                "de": "Zusätzliche Unterstützung von UvLight, Longitude und Latitude",
+                "ru": "Добавлена ​​поддержка UvLight, долготы и широты",
+                "pt": "Adicionado suporte de UvLight, Longitude e Latitude",
+                "nl": "Ondersteuning toegevoegd van UvLight, Longitude en Latitude",
+                "fr": "Ajout du support de UvLight, Longitude et Latitude",
+                "it": "Aggiunto il supporto di UvLight, Longitude e Latitude",
+                "es": "Se agregó soporte de UvLight, Longitude y Latitude",
+                "pl": "Dodano obsługę UvLight, długości i szerokości geograficznej"
+            },
+            "2.1.1": {
+                "en": "Support of the particle concentration sensor",
+                "de": "Unterstützung des Partikelkonzentrationssensors",
+                "ru": "Поддержка датчика концентрации частиц",
+                "pt": "Suporte do sensor de concentração de partículas",
+                "nl": "Ondersteuning van de deeltjesconcentratiesensor",
+                "fr": "Support du capteur de concentration de particules",
+                "it": "Supporto del sensore di concentrazione di particelle",
+                "es": "Soporte del sensor de concentración de partículas",
+                "pl": "Wsparcie czujnika stężenia cząstek"
+            },
+            "2.1.0": {
+                "en": "Support of the devices control",
+                "de": "Unterstützung der Gerätekontrolle",
+                "ru": "Поддержка управления устройствами",
+                "pt": "Suporte do controle de dispositivos",
+                "nl": "Ondersteuning van de apparatencontrole",
+                "fr": "Prise en charge du contrôle des appareils",
+                "it": "Supporto del controllo dei dispositivi",
+                "es": "Soporte del control de dispositivos",
+                "pl": "Obsługa sterowania urządzeniami"
+            },
+            "2.0.2": {
+                "en": "Fixing re-connection of clients\nSeaPressure was added",
+                "de": "Reparieren der Neuverbindung von Clients\nSeaPressure wurde hinzugefügt",
+                "ru": "Фиксация повторного подключения клиентов\nДобавлено SeaPressure",
+                "pt": "Reparando conexão de clientes\nA SeaPressure foi adicionada",
+                "nl": "Bevestiging van opnieuw verbinden van clients\nSeaPressure is toegevoegd",
+                "fr": "Correction de la reconnexion des clients\nSeaPressure a été ajouté",
+                "it": "Risolvere la riconnessione dei client\nSeaPressure è stato aggiunto",
+                "es": "Reparar la reconexión de los clientes\nSeaPressure fue agregado",
+                "pl": "Naprawianie ponownego połączenia klientów\nSeaPressure zostało dodane"
+            },
+            "2.0.1": {
+                "en": "Add Light/Noise/AirQuality\nDo not send pingresp for invalid clients",
+                "de": "Fügen Sie den Light/Noise/AirQuality hinzu\nSendet keine Pingresp für ungültige Clients",
+                "ru": "Добавлены Light/Noise/AirQuality\nНе отправляen pingresp для недействительных клиентов",
+                "pt": "Adicionar Light/Noise/AirQuality",
+                "nl": "Light/Noise/AirQuality toevoegen",
+                "fr": "Ajouter un capteur Light/Noise/AirQuality",
+                "it": "Aggiungi il Light/Noise/AirQuality",
+                "es": "Agregar Light/Noise/AirQuality",
+                "pl": "Dodaj Light/Noise/AirQuality"
+            }
+        },
+        "title": "Sonoff",
+        "desc":                     {
+            "en": "This adapter allows to connect sonoff components via MQTT",
+            "de": "Dieser Adapter ermöglicht den Anschluss von Sonoff-Komponenten über MQTT",
+            "ru": "Этот адаптер позволяет подключать компоненты Sonoff через MQTT",
+            "pt": "Este adaptador permite conectar os componentes do sonoff via MQTT",
+            "nl": "Met deze adapter kunnen sonoff-componenten via MQTT worden aangesloten",
+            "fr": "Cet adaptateur permet de connecter des composants sonoff via MQTT",
+            "it": "Questo adattatore consente di collegare i componenti Sonoff via MQTT",
+            "es": "Este adaptador permite conectar componentes de sonof a través de MQTT",
+            "pl": "Ten adapter umożliwia łączenie komponentów sonoff za pośrednictwem MQTT",
+            "zh-cn": "该适配器允许通过MQTT连接Sonoff组件"
+        },
+        "authors": [
+            "bluefox <dogafox@gmail.com>"
+        ],
+        "license":                  "MIT",
+        "platform":                 "Javascript/Node.js",
+        "mode":                     "daemon",
+        "compact":                  true,
+        "enabled":                  true,
+        "readme":                   "https://github.com/ioBroker/ioBroker.sonoff/blob/master/README.md",
+        "loglevel":                 "info",
+        "icon":                     "sonoff.png",
+        "materialize":              true,
+        "keywords":                 ["ITEAD", "MQTT", "Sonoff", "Tasmota"],
+        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.sonoff/master/admin/sonoff.png",
+		"type":                     "lighting"
+    },
+    "native": {
+        "port":                 1883,
+        "bind":                 "0.0.0.0",
+        "user":                 "",
+        "pass":                 "",
+        "timeout":              300,
+        "TELE_SENSOR":          false,
+        "TELE_STATE":           false,
+        "STAT_RESULT":          false,
+        "storeClientsTime":     1440,
+        "defaultQoS":           0,
+        "retransmitInterval":   2000,
+        "retransmitCount":      10,
+        "ignorePings":          false
+    },
+    "objects": [
+
+    ],
+    "instanceObjects": [
+        {
+            "_id":  "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id":  "info.connection",
+            "type": "state",
+            "common": {
+                "role":  "info.clients",
+                "name":  "List of connected clients",
+                "type":  "string",
+                "read":  true,
+                "write": false
+            },
+            "native": {}
+        }
+    ]
+}
